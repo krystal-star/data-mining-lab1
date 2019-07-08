@@ -9,7 +9,7 @@ def DataSet():   #对于txt或data文件
     testset = []
     traininglabels = []
     '''从文件中读取数据'''
-    f = open('/Users/liukai/Desktop/datamining/uci_data/wifi_localization.txt', 'r')
+    f = open('fileName', 'r')
     data = f.read()
     data = data.split('\n')
     for i in range(len(data)):
