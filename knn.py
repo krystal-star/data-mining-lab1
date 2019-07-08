@@ -32,7 +32,7 @@ def DataSetCSV():  #对于csv文件
     testset = []
 
     '''从文件中读取训练集'''
-    f = open('/Users/liukai/Desktop/datamining/uci_data/ForestTypes/training.csv', 'r')
+    f = open('fileName', 'r')
     data = csv.reader(f)
     for line in data:
         trainingset.append(line)
